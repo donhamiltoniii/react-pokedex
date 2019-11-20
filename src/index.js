@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-import { getPokemonCollection } from './utils/http'
+import { getPokemonCollection } from './utils/pokemon'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
